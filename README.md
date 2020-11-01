@@ -375,9 +375,9 @@ t2.textProperty().addListener(new ChangeListener<String>(){
 
 绑定有Simple*Property系列，包含Integer等单属性和List等集合属性两种方式。
 
-[JAVAFXCollections][17]
+![JAVAFXCollections][17]
 
-[JavaFX两种主要数据类型][18]
+![JavaFX两种主要数据类型][18]
 
 由于有了javafx的bingding类型，使用SImpleProperty系列数据类型替换掉基本数据类型，可以实现快速修改对象功能。
 
