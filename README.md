@@ -1,8 +1,40 @@
+
 # 项目使用说明
 
 + `javafx.base`是一个模块
 + `javafx.scene`也是一个模块,可以用dot连接
 + `javafx.graphics`也是一个模块，以此类推
+
+# 目录
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [项目使用说明](#项目使用说明)
+- [目录](#目录)
+    - [技术路线配置](#技术路线配置)
+    - [设计流程](#设计流程)
+    - [编译命令](#编译命令)
+    - [运行命令](#运行命令)
+    - [打包命令：](#打包命令：)
+    - [项目整体结构](#项目整体结构)
+        - [項目的核心类](#項目的核心类)
+            - [双向绑定的例子](#双向绑定的例子)
+            - [高级双向绑定](#高级双向绑定)
+            - [小结](#小结)
+            - [绑定计算](#绑定计算)
+                - [传统addListener例子](#传统addlistener例子)
+                - [javafx Property binding计算](#javafx-property-binding计算)
+            - [小结2](#小结2)
+            - [javafx集合类型 单向和双向绑定](#javafx集合类型-单向和双向绑定)
+            - [集合类型中的valueAt(重要)](#集合类型中的valueat重要)
+                - [Label实时更新](#label实时更新)
+            - [小结3](#小结3)
+            - [自定义绑定](#自定义绑定)
+        - [某类初始化](#某类初始化)
+    - [社区文档](#社区文档)
+
+<!-- markdown-toc end -->
 
 ## 技术路线配置
 java JDK 官网13.02
