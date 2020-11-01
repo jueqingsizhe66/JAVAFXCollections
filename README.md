@@ -1,4 +1,4 @@
-
+﻿
 # 项目使用说明
 
 + `javafx.base`是一个模块
@@ -519,6 +519,6 @@ FXML和setOnAction()有所区别
 [14]: https://openjfx.cn/javadoc/15/javafx.base/javafx/beans/binding/LongBinding.html
 [15]: https://openjfx.cn/javadoc/15/javafx.base/javafx/beans/binding/LongExpression.html
 [16]: https://www.bilibili.com/video/BV1Kt411e7Bw/?spm_id_from=333.788.videocard.0
-[17]: https://github.com/jueqingsizhe66/JAVAFXCollections/blob/develop/image/FXCollections.png
-[18]: https://github.com/jueqingsizhe66/JAVAFXCollections/blob/develop/image/JavafxTwoTypes.png
+[17]: https://github.com/jueqingsizhe66/JAVAFXCollections/tree/develop/image/FXCollections.png
+[18]: https://github.com/jueqingsizhe66/JAVAFXCollections/tree/develop/image/JavafxTwoTypes.png
 [19]: https://www.bilibili.com/video/BV16t411z7jg/?spm_id_from=333.788.videocard.13
