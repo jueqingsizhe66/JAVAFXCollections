@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
+import io.github.palexdev.materialfx.controls.MFXLabel;
 import javafx.beans.InvalidationListener;
 import javafx.beans.Observable;
 import javafx.collections.ListChangeListener;
@@ -55,6 +56,9 @@ public class SecondaryController implements Initializable {
         App.setRoot("primary");
     }
 
+//    private static URL load(String path){
+//        MFXLabel
+//    }
     @FXML
     private void addStudentBtn(){
         Student stu= new Student();

@@ -46,6 +46,27 @@ public class PrimaryController  {
     }
 
     @FXML
+    private void switchToMFbutton() throws IOException {
+        App.setRoot("materialsFX/ButtonsDemo");
+    }
+
+    @FXML
+    private void switchToMFTableView() throws IOException {
+        App.setRoot("materialsFX/TableViewsDemo");
+    }
+
+    @FXML
+    private void switchToMFTreeView() throws IOException {
+        // 文件名 大小写敏感
+        App.setRoot("materialsFX/TreeViewsDemo");
+    }
+
+    @FXML
+    private void switchToMFListView() throws IOException {
+        // 文件名 大小写敏感
+        App.setRoot("materialsFX/ListViewsDemo");
+    }
+    @FXML
     private void switchToCombobox() throws IOException {
         App.setRoot("testCombobox");
     }

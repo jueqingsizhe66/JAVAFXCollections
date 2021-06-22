@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefHeight="709.0" prefWidth="911.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.PrimaryController">
+<VBox alignment="CENTER" prefHeight="709.0" prefWidth="911.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.PrimaryController">
    <children>
       <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0">
          <children>
@@ -37,6 +37,7 @@
             </Button>
             <Button mnemonicParsing="false" onAction="#switchToTableView" text="打开TableView" />
             <Button layoutX="367.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchToWebView" text="打开WebView" />
+            <Button mnemonicParsing="false" onAction="#switchToMFListView" text="SwitchMFXListView" />
          </children>
          <opaqueInsets>
             <Insets right="10.0" />
@@ -46,6 +47,9 @@
          <children>
             <Button mnemonicParsing="false" onAction="#switchToImageViewerWithBlur" text="打开ImageViewerWithBlur" />
             <Button mnemonicParsing="false" onAction="#switchToImageView" text="打开ImageView" />
+            <Button mnemonicParsing="false" onAction="#switchToMFbutton" text="SwitchMFXButton" />
+            <Button mnemonicParsing="false" onAction="#switchToMFTableView" text="SwitchMFXTableView" />
+            <Button mnemonicParsing="false" onAction="#switchToMFTreeView" text="SwitchMFXTreeView" />
          </children>
       </HBox>
    </children>

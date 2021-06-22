@@ -11,4 +11,13 @@ module hellofx {
     opens org.data.Entity;
     opens org.data.Entity2;
     opens org.data.Mapper;
+    opens org.data.materialFX;
+    requires MaterialFX;
+
+    requires fr.brouillard.oss.cssfx;
+    requires org.kordamp.ikonli.javafx;
+    requires org.kordamp.ikonli.fontawesome5;
+    // right key scenicview.jar , and add as library
+//    requires org.scenicview.scenicview;
+
 }

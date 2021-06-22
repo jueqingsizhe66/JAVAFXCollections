@@ -1,5 +1,6 @@
 package org.openjfx;
 
+import io.github.palexdev.materialfx.controls.MFXLabel;
 import javafx.beans.InvalidationListener;
 import javafx.beans.Observable;
 import javafx.beans.binding.Bindings;
@@ -117,6 +118,7 @@ public class BindTheoryTestController implements Initializable {
         for (int i = 0; i < listlable.size(); i++) {
 
             Label l1 = new Label();
+//            MFXLabel l1 = new MFXLabel();
             l1.setText("SS"+i);
             ObjectBinding obj = listlable.valueAt(i);
             l1.textProperty().bind(obj); // 绑定的过程
