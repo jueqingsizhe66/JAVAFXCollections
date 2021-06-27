@@ -5,6 +5,10 @@
 + `javafx.scene`也是一个模块,可以用dot连接
 + `javafx.graphics`也是一个模块，以此类推
 
+# SIP是什么鬼？
+
+我为什么要使用SimpleIntegerProperty! 因为它具备动态变化功能！
+
 # 目录
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
@@ -57,6 +61,8 @@ Javafx 14(jdk 和fx已分离)
 mvn javafx:compile
 ```
 ## 运行命令
+
+<2021-06-25 20:47> 直接命令行也可以运行。
 ```maven
 mvn javafx:run
 ```
@@ -500,6 +506,9 @@ FXML和setOnAction()有所区别
 
 
 
+[javafx练手项目][20]
+[javafx学生宿舍管理][21]
+[并发学习][22]
 
 ----------------------------------------------
 
@@ -522,3 +531,6 @@ FXML和setOnAction()有所区别
 [17]: https://github.com/jueqingsizhe66/JAVAFXCollections/tree/develop/image/FXCollections.png
 [18]: https://github.com/jueqingsizhe66/JAVAFXCollections/tree/develop/image/JavafxTwoTypes.png
 [19]: https://www.bilibili.com/video/BV16t411z7jg/?spm_id_from=333.788.videocard.13
+[20]: https://blog.csdn.net/num_xiaotian/article/details/108089817 
+[21]: https://gitee.com/LGSKOKO/Student-dormitory-management-system?_from=gitee_search 
+[22]: https://gitee.com/LGSKOKO/Concurrent_Java 

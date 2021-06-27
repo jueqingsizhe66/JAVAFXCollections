@@ -21,6 +21,7 @@ import java.util.logging.Logger;
 public class DBUtil {
 
     //https://blog.csdn.net/superdangbo/article/details/78732700  驱动器问题 mysql8.0以上
+    // FXML is not a compiled language; you do not need to recompile the code to see the changes
     private static String driver = "com.mysql.cj.jdbc.Driver";
     //https://www.cnblogs.com/godwithus/p/9788790.html  时区问题
     private static String URL = "jdbc:mysql://localhost:3306/studentdb?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC";
